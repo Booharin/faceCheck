@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FaceCheckViewController.swift
 //  faceCheck
 //
 //  Created by Booharin on 29/06/2019.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FaceCheckViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
-
-
 }
-
