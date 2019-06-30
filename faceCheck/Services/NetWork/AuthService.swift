@@ -22,7 +22,7 @@ struct AuthService {
         Alamofire.request(router.logIn(email: email, password: password))
             .responseJSON(queue: .global()) { response in
                 
-                /// temporary code for test project
+                // temporary code for test project
                 
                 #if DEBUG
                 print(response)

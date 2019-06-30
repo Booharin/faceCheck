@@ -6,8 +6,6 @@
 //  Copyright © 2019 Booharin. All rights reserved.
 //
 
-import UIKit
-
 final class FaceCheckCoordinator: BaseCoordinator {
     var onFinishFlow: (() -> Void)?
     

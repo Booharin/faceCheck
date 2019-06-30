@@ -47,7 +47,7 @@ class AuthViewController: UIViewController {
                            password: passwordTextField.text ?? "") { [unowned self] token in
                             
                             DispatchQueue.main.async {
-                                /// temporary token treatment
+                                // temporary token treatment
                                 guard let _ = token else { return }
                                 self.onLogin?()
                             }
